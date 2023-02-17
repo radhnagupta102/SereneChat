@@ -1,0 +1,161 @@
+:root {
+    --primary-color: #00A7E1;
+    /*Secondary Colors*/
+    --white: #FFFFFF;
+    --light-blue: #EBF5FA;
+    --grey-blue: #B1C9D9;
+    --dark-blue: #33B5E5;
+    --navy: #1E3264;
+    /*Accent Colors*/
+    --yellow: #FFC107;
+    --red: #FF5F5F;
+    --green: #00C853;
+    --purple: #CE93D8;
+}
+
+*,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--navy);
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.hero {
+    background-color: var(--light-blue);
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: var(--navy);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: var(--navy);
+}
+
+.app-img {
+    padding: 18px;
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--navy);
+    border-color: var(--navy);
+}
+
+.below-hero {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: var(--navy);
+    padding: 50px 10%;
+}
+
+.main-sec {
+    font-size: 1.5rem;
+    color: var(--navy);
+    padding: 65px 0px;
+}
+
+.main-content {
+    padding: 35px 20px;
+}
+
+.expect-sec {
+    text-align: center;
+    padding: 50px 15px;
+    margin: auto;
+    background-color: var(--light-blue);
+}
+
+.expect-sec-h {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--navy);
+}
+
+.main-cards {
+    margin: 55px 0px;
+    font-size: 18px;
+}
+
+.main-card {
+    background-color: var(--white);
+    margin: 8px;
+    padding: 12px;
+}
+.main-card:hover {
+    font-size: 22px;
+    transition: 500ms;
+    box-shadow:
+    0.5px 0.6px 4.5px -7px rgba(10, 6, 70, 0.015),
+    1.6px 2px 15px -7px rgba(2, 15, 73, 0.152),
+    7px 9px 67px -7px rgba(40, 3, 175, 0.19)
+  ;
+}
+.p-expect {
+    margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.p-expect-2 {
+    font-size: 1.5rem;
+    padding: 35px 15px;
+    color: var(--navy);
+}
+
+.signup-sec {
+    background-color: var(--navy);
+    padding: 120px 20%;
+    margin: auto;
+    text-align: center;
+}
+.signup-h {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.signup-btn {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--navy);
+    padding: 12px;
+    width: 180px;
+    border: none;
+    background-color: var(--yellow);
+    transition: 500ms;
+}
+.signup-btn:hover {
+    font-size: 28px;
+    background-color: var(--green);
+    color: var(--white);
+    width: 200px;
+    transition: 500ms;
+}
